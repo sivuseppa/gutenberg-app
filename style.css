@@ -1,5 +1,20 @@
+#my-first-gutenberg-app {
+  padding-right: 2em;
+}
+
 .components-card {
-  max-width: 600px;
+  /*max-width: 600px;*/
+}
+
+.components-card__body {
+  display: flex;
+  justify-items: center;
+  gap: 1em;
+}
+
+.components-card__body button {
+  margin-left: auto;
+  align-self: center;
 }
 
 .components-snackbar {
